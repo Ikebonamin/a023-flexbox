@@ -2,17 +2,38 @@
   margin: 0;
   padding: 0;
 }
+body {
+  margin: 10px;
+}
 
+.responsive {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 .container {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center
+  height: 80vh;
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  height: 80 vh;
 }
 
 .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid black;
   background-color: white;
   height: 180px;
   width: 180px;
+}
+.black {
+  background-color: black;
+  height: 10vh;
 }
